@@ -1,0 +1,165 @@
+body{
+    font-family: Helvetica;
+    background: linear-gradient(180deg, #9966CC 0%, #4169E1 100%)
+}
+
+#header{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#header h1{
+    font-family: Helvetica;
+    font-size: 150px;
+    color: #5b5b58;
+    text-shadow: -2px 0 2px #000000;
+}
+#header h3{
+    font-family: Helvetica;
+    font-size: 35px;
+    color: #000000;
+    text-shadow: -2px 0 2px #000000;
+    
+
+}
+
+
+div.container{
+    padding: 30px;
+    background-color: aliceblue;
+}
+div.prod1 {
+    width: 33.3%;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    min-width:20vw;
+    float: center;
+}
+
+div.prod2 {
+    width: 33.3%;
+    display: inline-block;
+    margin-right: 0vw;
+    font-size: 20px;
+    text-align: center;
+    min-width:20vw;
+    float:right;
+}
+div.prod3 {
+    width: 33.3%;
+    display: inline-block;
+    margin-right: 0vw;
+    font-size: 20px;
+    text-align: center;
+    min-width:20vw;
+    float:left
+}
+
+div.ulttext{
+    width: 45%;
+    display: inline-block;
+    margin-top: 10vw;
+    margin-left: 2vw;
+    font-size: 20px;
+    text-align: center;
+    min-width:20vw;
+    float: left;
+}
+
+div.form{
+    padding: 10px;
+    width: 45%;
+    display: inline-block;
+    margin-top: 3vw;
+    margin-right: 2vw;
+    font-size: 20px;
+    text-align: center;
+    min-width:20vw;
+    float: right;
+    background-color: aliceblue;
+    }
+
+    div.form{
+        padding:10px;
+        border-radius:50px;
+        margin-bottom: 50px;
+    }
+    input{
+        padding:10px;
+        border:10;
+        box-shadow:0 0 15px 15px rgba(0,0,0,0.06);
+        border-radius:30px;
+        size: 50px;
+        width:80%;
+        font-size: 20px;
+    
+    }
+    input[type=checkbox]{
+        width:10%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    label{
+        font-size: 20px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        text-align: left;
+        
+    }
+
+    label[for=number]{
+        text-align:left ;
+    }
+    
+
+
+
+div.logo{
+    width: 45%;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    min-width:20vw;
+    float: center;
+
+
+}
+div.about{
+    width: 45%;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    min-width:20vw;
+    float: center;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.myButton {
+	box-shadow: -4px 3px 9px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffd700 5%, #ffab23 100%);
+	background-color:#ffd700;
+	border-radius:19px;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:14px 33px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffd700 5%, #ffec64 100%);
+	background-color:#ffd700;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+        
